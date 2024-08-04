@@ -1,0 +1,42 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(3, 1fr); /* 3 rows */
+    gap: 20px; /* Space between cards */
+    padding: 20px; /* Padding around the grid */
+  }
+  
+  .card {
+    background-color: #ffff; /* Light background for cards */
+    border: 1px solid #ddd; /* Border around cards */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+    cursor: pointer; /* Change cursor on hover */
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children */
+    justify-content: flex-start; /* Align items to the top */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Scale up on hover */
+  }
+  
+  .card img {
+    width: 100%; /* Full width of the card */
+    height: 200px; /* Fixed height for all images */
+    object-fit: contain; /* Cover the area while maintaining aspect ratio */
+  }
+  
+  .card-title {
+    margin-top: 10px; /* Space between image and text */
+    font-size: 30px; /* Font size for the title */
+    color: #333; /* Text color */
+    text-align: center; /* Center the text */
+    font-weight: bold; /* Make the text bold */
+    padding: 10px; /* Add padding for consistent spacing */
+    flex-grow: 0; /* Prevent the title from growing */
+  }
+  

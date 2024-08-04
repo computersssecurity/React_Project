@@ -1,0 +1,153 @@
+/* Global styles */
+.sign-in-page {
+  margin: 0;
+  background-image: url("https://akm-img-a-in.tosshub.com/indiatoday/images/story/202103/gallery-5_1200x768.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif; /* Changed font family back */
+}
+.sign-in-text {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight:bold;
+  font-style: normal;
+  font-size: 2em; /* Adjusted font size */
+  margin-bottom: 30px;
+  text-align: centre;
+}
+
+/* Container for the sign-in box */
+.sign-in-container {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker semi-transparent background */
+  padding: 70px; /* Updated padding */
+  border-radius: 10px; /* Updated border radius */
+  color: white; /* Updated text color */
+  text-align: center;
+  width: 450px; /* Updated width */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Updated shadow */
+}
+
+/* Styling for the sign-in text */
+.sign-in-heading {
+  font-family: "Bebas Neue", sans-serif; /* Updated font family */
+  font-weight: 400; /* Updated font weight */
+  font-size: 3em; /* Updated font size */
+  margin-bottom: 30px; /* Updated margin */
+  text-align: left; /* Kept text alignment */
+}
+
+/* Styling for labels */
+.sign-in-label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px; /* Kept margin */
+  font-size: 1.2em; /* Kept font size */
+  padding-left: 5px; /* Kept padding */
+}
+
+/* Styling for input fields */
+.sign-in-input {
+  width: calc(100% - 20px);
+  padding: 10px; /* Kept padding */
+  margin-bottom: 20px; /* Kept margin */
+  border: none;
+  border-radius: 5px; /* Kept border radius */
+  font-size: 0.9em; /* Kept font size */
+  background-color: rgba(255, 255, 255, 0.8); /* Kept background color */
+  color: #333; /* Kept text color */
+  padding-left: 10px; /* Kept padding */
+  box-sizing: border-box;
+}
+
+.password-input {
+  width: calc(100% - 20px);
+  padding: 10px; /* Kept padding */
+  margin-bottom: 20px; /* Kept margin */
+  border: none;
+  border-radius: 5px; /* Kept border radius */
+  font-size: 0.9em; /* Kept font size */
+  background-color: rgba(255, 255, 255, 0.8); /* Kept background color */
+  color: #333; /* Kept text color */
+  padding-left: 10px; /* Kept padding */
+  box-sizing: border-box;
+}
+
+/* Placeholder styling */
+.sign-in-input::placeholder,
+.password-input::placeholder {
+  color: #777; /* Placeholder text color */
+}
+
+/* Styling for the sign-in button */
+.sign-in-button {
+  width: calc(100% - 20px);
+  padding: 10px; /* Kept padding */
+  background-color: #800000; /* Updated button color */
+  border: none;
+  border-radius: 5px; /* Kept border radius */
+  color: white; /* Updated text color */
+  font-size: 1.2em; /* Kept font size */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Kept transition */
+}
+
+.sign-in-button:hover {
+  background-color: #800000; /* Slightly darker shade on hover */
+}
+
+/* Form styling */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px; /* Kept max-width */
+  margin: auto; /* Center the form */
+}
+
+/* Checkbox container styling */
+.checkbox-container {
+  display: flex;
+  align-items: center; /* Align checkbox and label */
+}
+
+.checkbox-container input {
+  margin-right: 10px; /* Space between checkbox and label */
+}
+
+/* Create account link styling */
+.create-account {
+  margin-top: 320px; /* Space above the create account link */
+ /* Center the text */
+  position: absolute;
+  display: flex;
+  padding-left: 40px;
+  cursor: pointer;
+  
+}
+
+.create-account a {
+  color: #007bff; /* Updated link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.create-account a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Policy and terms link styling */
+.policy-link {
+  color: azure; /* Kept color */
+}
+
+.terms-link {
+  color: azure; /* Kept color */
+}
+.label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+  padding-left: 5px;
+}

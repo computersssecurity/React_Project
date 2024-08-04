@@ -1,0 +1,59 @@
+.test-drive-wrapper {
+  min-height: 100vh;
+  background:url('../../public/assets/Shotgun.jpg') ; /* Replace with your background image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.test-drive-form {
+  width: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.3); /* White with 90% opacity */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.test-drive-form h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 90%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-field::placeholder {
+  color: rgb(246, 246, 246), 255, 255, 0.1;
+}
+
+.message-box {
+  width: 90%;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-btn {
+  width: 90%;
+  height: 40px;
+  background: #7c0a02;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
